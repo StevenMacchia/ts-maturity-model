@@ -18,6 +18,8 @@ Leaders are asked "how mature is our safety program?" by boards, regulators, acq
 2. **Rate each area.** One area at a time, pick the highest level where every statement is true today.
 3. **Get your roadmap.** A radar of where you stand, and steps sorted into now, next and later, one level at a time.
 
+Send the roadmap to Jira, Asana or Linear as a CSV, or open each step as a pre-filled Jira, Linear or GitHub issue.
+
 ## What's in this repo
 
 The tool's knowledge, published as open content you can read, reuse and adapt.
@@ -41,6 +43,8 @@ The tool's knowledge, published as open content you can read, reuse and adapt.
 ![maturity-roadmap](assets/maturity-roadmap.png)
 
 ![maturity-areas](assets/maturity-areas.png)
+
+![maturity-tracker](assets/maturity-tracker.png)
 
 ## License and credit
 
