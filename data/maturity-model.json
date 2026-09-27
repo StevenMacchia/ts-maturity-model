@@ -1,0 +1,339 @@
+{
+  "levels": [
+    {
+      "n": "Reactive",
+      "d": "Handled case by case, by whoever is around"
+    },
+    {
+      "n": "Developing",
+      "d": "Some basics in place, with gaps and inconsistency"
+    },
+    {
+      "n": "Defined",
+      "d": "Written down, owned and repeatable"
+    },
+    {
+      "n": "Managed",
+      "d": "Measured, reviewed and improving"
+    },
+    {
+      "n": "Leading",
+      "d": "Built in, proactive and shaping the field"
+    }
+  ],
+  "stages": [
+    {
+      "key": "early",
+      "stage": "Early stage",
+      "description": "A founder or first safety hire covers trust and safety, usually with under a million users.",
+      "targets": {
+        "policy": 2,
+        "detection": 2,
+        "operations": 2,
+        "quality": 2,
+        "crisis": 3,
+        "measurement": 2,
+        "compliance": 3,
+        "wellbeing": 3
+      }
+    },
+    {
+      "key": "growth",
+      "stage": "Growing",
+      "description": "A dedicated safety team, millions of users, and new markets or features on the way.",
+      "targets": {
+        "policy": 3,
+        "detection": 3,
+        "operations": 3,
+        "quality": 3,
+        "crisis": 3,
+        "measurement": 3,
+        "compliance": 3,
+        "wellbeing": 3
+      }
+    },
+    {
+      "key": "scale",
+      "stage": "At scale or regulated",
+      "description": "Tens of millions of users, a heavily regulated sector, or extra duties as a very large platform under EU or UK law.",
+      "targets": {
+        "policy": 4,
+        "detection": 4,
+        "operations": 4,
+        "quality": 4,
+        "crisis": 4,
+        "measurement": 4,
+        "compliance": 4,
+        "wellbeing": 4
+      }
+    }
+  ],
+  "tie_break_order": [
+    "crisis",
+    "compliance",
+    "detection",
+    "policy",
+    "wellbeing",
+    "operations",
+    "quality",
+    "measurement"
+  ],
+  "areas": [
+    {
+      "key": "policy",
+      "area": "Policy and standards",
+      "question": "Are your rules clear, written down and applied the same way every time?",
+      "why_it_matters": "Unclear rules lead to inconsistent decisions, frustrated users and weak answers when regulators ask how you decide.",
+      "levels": [
+        "Beyond a short terms of service there are no written rules. Decisions depend on who handles the case.",
+        "Public community guidelines exist, but reviewers have little internal guidance and edge cases get settled in chat threads.",
+        "Every public policy has internal enforcement guidelines with examples, a named owner and a change log.",
+        "Policies are reviewed on a schedule and tested against edge cases before launch. Reviewer agreement is tracked for each policy to find unclear rules.",
+        "Policy work draws on research, outside experts and affected communities. The reasoning behind major changes is published, and appeal outcomes shape revisions."
+      ],
+      "steps_to_next_level": [
+        [
+          "Write community guidelines that cover your most serious harms",
+          "Name one owner for each policy area"
+        ],
+        [
+          "Write internal enforcement guidelines with clear examples for every policy",
+          "Keep a change log so reviewers know what changed and when"
+        ],
+        [
+          "Stress-test new and changed policies against edge cases before they ship",
+          "Track reviewer agreement for each policy to find rules that are unclear"
+        ],
+        [
+          "Consult outside experts and affected communities on major changes",
+          "Publish the reasoning behind significant policy changes"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#policy"
+    },
+    {
+      "key": "detection",
+      "area": "Detection and prevention",
+      "question": "How do you find harm, other than waiting for users to report it?",
+      "why_it_matters": "Most harmful content is never reported. What you don't detect, you can't act on or measure.",
+      "levels": [
+        "Harm is found only when users report it, or when it reaches the press.",
+        "Users can report content, and simple keyword or link filters catch obvious abuse. Known illegal images may not be matched.",
+        "Hash matching catches known child sexual abuse and terrorist content, classifiers cover the top harms, and a review tool ranks cases by severity.",
+        "Precision and recall are measured for each detection system, models learn from reviewer decisions, and account signals catch networks, not just single posts.",
+        "New features get an abuse risk review before launch, a red team probes for gaps, and signals are shared with industry partners."
+      ],
+      "steps_to_next_level": [
+        [
+          "Add reporting to every place where users meet or post",
+          "Start block lists for the words and links behind your top harms"
+        ],
+        [
+          "Match uploads against known CSAM hashes, for example with PhotoDNA, and report matches as the law requires",
+          "Rank the review queue by severity instead of arrival time"
+        ],
+        [
+          "Measure precision and recall for each classifier on a labeled sample",
+          "Add account and network signals to catch coordinated abuse"
+        ],
+        [
+          "Run an abuse pre-mortem on every new feature before launch",
+          "Join an industry signal-sharing program, such as the GIFCT hash database or the Tech Coalition's Lantern"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+    },
+    {
+      "key": "operations",
+      "area": "Review operations",
+      "question": "Do you have the people, process and coverage to act on what you find, quickly enough?",
+      "why_it_matters": "Detection only matters if someone acts in time. Slow action lets harm spread and backlogs build.",
+      "levels": [
+        "A few people review reports when they have time. There are no targets for how fast.",
+        "A dedicated team or vendor works the queues during business hours, with basic service levels.",
+        "Written workflows, service levels by severity, round-the-clock cover for the most severe harms, and escalation paths to legal and leadership.",
+        "Capacity is forecast from volume trends, vendors are managed against a scorecard, and time to action is tracked for each harm.",
+        "Routing, automation and staffing are tuned continuously, and the team can add capacity within hours during an incident."
+      ],
+      "steps_to_next_level": [
+        [
+          "Make a named team or vendor responsible for the review queue",
+          "Set a target time to act on user reports"
+        ],
+        [
+          "Set service levels by severity, with round-the-clock cover for child safety and threats to life",
+          "Write an escalation path to legal, communications and leadership"
+        ],
+        [
+          "Forecast review capacity from volume trends every quarter",
+          "Score vendors on quality, wellness and surge capacity"
+        ],
+        [
+          "Automate clear-cut decisions and route complex cases to specialists",
+          "Test a surge plan that adds reviewers within hours"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#vendors"
+    },
+    {
+      "key": "quality",
+      "area": "Quality and appeals",
+      "question": "Are your decisions accurate and consistent, and can users get a mistake fixed?",
+      "why_it_matters": "Wrong decisions hurt good users and erode trust. In the EU, the Digital Services Act requires online platforms to offer a way to appeal.",
+      "levels": [
+        "Nobody checks decisions, and users who disagree have no way to appeal.",
+        "Decisions are spot-checked now and then. Appeals go to a general support inbox.",
+        "A regular quality sample measures accuracy for each policy, and appeals get a second reviewer and a response target.",
+        "Reviewer agreement and appeal overturn rates are tracked by policy and fed back into training and guidelines.",
+        "Quality is calibrated across every team and vendor, users get specific reasons for decisions, and overturn data drives changes to policy and models."
+      ],
+      "steps_to_next_level": [
+        [
+          "Let users appeal every action on their account or content",
+          "Spot-check a small sample of decisions every week"
+        ],
+        [
+          "Run a weekly quality sample and report accuracy for each policy",
+          "Give appeals their own queue, a different reviewer and a response target"
+        ],
+        [
+          "Track appeal overturn rates by policy and use them to update guidelines",
+          "Hold calibration sessions where reviewers decide the same cases"
+        ],
+        [
+          "Calibrate every team and vendor against one shared answer key",
+          "Give users specific reasons with every decision, including an EU statement of reasons where required"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#appeal"
+    },
+    {
+      "key": "crisis",
+      "area": "Crisis response",
+      "question": "When something goes badly wrong, does everyone know what to do in the first hour?",
+      "why_it_matters": "In a crisis, the first hours decide how much harm is done, what the headlines say and what regulators think of you.",
+      "levels": [
+        "Crises are handled as they happen, by whoever is around.",
+        "People know who to call, but there's no written playbook or agreed severity scale.",
+        "A written playbook sets severity levels, an on-call rotation, named roles and ready templates for regulators and the press.",
+        "A tabletop exercise runs at least twice a year, and every major incident gets a blameless review with tracked actions.",
+        "Drills include executives, playbooks cover emerging threats such as elections and AI-generated content, and lessons are shared across the industry."
+      ],
+      "steps_to_next_level": [
+        [
+          "Agree what counts as a crisis and who declares one",
+          "List who to call in legal, communications, engineering and law enforcement"
+        ],
+        [
+          "Write a playbook with severity levels, roles and an on-call rotation",
+          "Prepare holding statements and regulator notification templates"
+        ],
+        [
+          "Run a tabletop exercise at least twice a year",
+          "Hold a blameless review after every major incident and track the actions"
+        ],
+        [
+          "Include executives in at least one exercise a year",
+          "Add playbooks for elections, AI-generated content and coordinated attacks"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#tabletop"
+    },
+    {
+      "key": "measurement",
+      "area": "Metrics and reporting",
+      "question": "Can you show leadership, with numbers, whether users are safer this quarter than last?",
+      "why_it_matters": "Without measurement you can't prove progress, win investment or spot a problem before it grows.",
+      "levels": [
+        "Little is measured beyond counts of reports or removals.",
+        "A dashboard tracks volumes and response times, but not how much harm users actually see.",
+        "A defined scorecard covers prevalence, speed, accuracy and appeals, and leadership reviews it every quarter.",
+        "Every metric has a target, an owner and a trend. Prevalence is measured by sampling, and a transparency report is published.",
+        "Safety metrics shape product and business decisions, include how safe users feel, and are independently audited where required."
+      ],
+      "steps_to_next_level": [
+        [
+          "Log every report, decision and action with a timestamp",
+          "Build a simple dashboard for volume and response time"
+        ],
+        [
+          "Choose a scorecard that covers prevalence, speed, accuracy and appeals",
+          "Review the scorecard with leadership every quarter"
+        ],
+        [
+          "Measure prevalence with a properly sized random sample",
+          "Publish a transparency report"
+        ],
+        [
+          "Make safety metrics a required input to launch and business reviews",
+          "Survey users on how safe they feel and track it next to enforcement data"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#metrics"
+    },
+    {
+      "key": "compliance",
+      "area": "Regulatory readiness",
+      "question": "Do you know which online safety laws apply to you, and could you prove you meet them?",
+      "why_it_matters": "Online safety laws now carry large fines, and regulators expect evidence, not promises.",
+      "levels": [
+        "Nobody tracks online safety law. Legal questions come up only after a letter arrives.",
+        "Legal knows the major laws exist, but obligations aren't linked to owners or processes.",
+        "Obligations under laws such as the EU Digital Services Act, the UK Online Safety Act and child safety reporting rules are mapped to owners, processes and evidence.",
+        "Risk assessments are documented and repeated when products change, and requests from regulators and law enforcement follow a tracked process.",
+        "Compliance is built into product development, audits pass without major findings, and the team contributes to consultations on new rules."
+      ],
+      "steps_to_next_level": [
+        [
+          "List where you operate and the online safety laws that apply there",
+          "Name who owns regulatory questions"
+        ],
+        [
+          "Map each legal obligation to an owner, a process and the evidence you keep",
+          "Set up required reporting, such as reporting CSAM to NCMEC in the US"
+        ],
+        [
+          "Document risk assessments and repeat them when products change",
+          "Track regulator and law enforcement requests from receipt to response"
+        ],
+        [
+          "Add a regulatory check to your product launch process",
+          "Respond to consultations on upcoming rules"
+        ]
+      ],
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+    },
+    {
+      "key": "wellbeing",
+      "area": "Team wellbeing",
+      "question": "Are the people who review harmful content protected, supported and able to stay?",
+      "why_it_matters": "Repeated exposure to harmful content can cause lasting psychological harm. Burnout also drives turnover and mistakes.",
+      "levels": [
+        "Reviewers see harmful content with no limits, training or specialist support.",
+        "A general employee assistance program exists, but nothing specific to content exposure.",
+        "Every reviewer, in-house or at a vendor, has exposure limits, specialist counseling, wellness tools such as image blurring, and resilience training.",
+        "Wellbeing is measured through surveys and attrition, and vendor contracts require the same standards as in-house teams.",
+        "Wellbeing is designed into tools and workflows, support continues after people leave the role, and a senior leader is accountable for it."
+      ],
+      "steps_to_next_level": [
+        [
+          "Give reviewers access to confidential counseling",
+          "Tell every new reviewer what they'll see and how to get support"
+        ],
+        [
+          "Set daily exposure limits for the most harmful content",
+          "Turn on blurring and grayscale by default in review tools"
+        ],
+        [
+          "Survey reviewer wellbeing and track attrition every quarter",
+          "Write wellness standards into every vendor contract"
+        ],
+        [
+          "Offer support after people leave review roles",
+          "Make a senior leader accountable for reviewer wellbeing"
+        ]
+      ],
+      "related_tool": null
+    }
+  ]
+}
