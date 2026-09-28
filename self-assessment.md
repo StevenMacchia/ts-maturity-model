@@ -1,6 +1,6 @@
 # Self-assessment worksheet
 
-Print this or copy it into a doc. For each area, tick the highest level where every statement is true today, then compare it with the target for your stage. The [live tool](https://stevenmacchia.github.io/ts-workbench/#maturity) does the scoring, draws the radar and builds the roadmap for you.
+Print this or copy it into a doc. For each area, tick the highest level where every statement is true today, then compare it with the target for your stage. The [live tool](https://stevenmacchia.com/ts-workbench/#maturity) does the scoring, draws the radar and builds the roadmap for you.
 
 **Stage:** ☐ Early stage ☐ Growing ☐ At scale or regulated
 

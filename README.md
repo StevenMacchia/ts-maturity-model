@@ -4,7 +4,7 @@
 
 Rate a Trust & Safety program in 8 areas, from policy and detection to crisis response and reviewer wellbeing, on five plain-language levels. Then work the plan: a phased roadmap with owners and due dates, where finishing the steps for a level moves that area up on the radar. Quarterly snapshots show leadership how far the program has come.
 
-**[Try it live](https://stevenmacchia.github.io/ts-workbench/#maturity)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
+**[Try it live](https://stevenmacchia.com/ts-workbench/#maturity)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
 
 ![T&S Program Maturity Model](assets/maturity.png)
 

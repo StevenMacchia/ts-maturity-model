@@ -109,7 +109,7 @@
           "Publish the reasoning behind significant policy changes"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#policy"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#policy"
     },
     {
       "key": "detection",
@@ -141,7 +141,7 @@
           "Join an industry signal-sharing program, such as the GIFCT hash database or the Tech Coalition's Lantern"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#premortem"
     },
     {
       "key": "operations",
@@ -173,7 +173,7 @@
           "Test a surge plan that adds reviewers within hours"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#vendors"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#vendors"
     },
     {
       "key": "quality",
@@ -205,7 +205,7 @@
           "Give users specific reasons with every decision, including an EU statement of reasons where required"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#appeal"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#appeal"
     },
     {
       "key": "crisis",
@@ -237,7 +237,7 @@
           "Add playbooks for elections, AI-generated content and coordinated attacks"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#tabletop"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#tabletop"
     },
     {
       "key": "measurement",
@@ -269,7 +269,7 @@
           "Survey users on how safe they feel and track it next to enforcement data"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#metrics"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#metrics"
     },
     {
       "key": "compliance",
@@ -301,7 +301,7 @@
           "Respond to consultations on upcoming rules"
         ]
       ],
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#premortem"
     },
     {
       "key": "wellbeing",
