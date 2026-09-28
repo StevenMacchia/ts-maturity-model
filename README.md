@@ -48,6 +48,8 @@ The tool's knowledge, published as open content you can read, reuse and adapt.
 
 ![maturity-tracker](assets/maturity-tracker.png)
 
+![maturity-fw](assets/maturity-fw.png)
+
 ## License and credit
 
 Content in this repo is licensed [CC BY 4.0](LICENSE): reuse and adapt it freely, with credit. The tool's source code is in [ts-workbench](https://github.com/stevenmacchia/ts-workbench) under the MIT license.
