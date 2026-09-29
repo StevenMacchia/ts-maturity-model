@@ -2,7 +2,7 @@
 
 > **How mature is your Trust & Safety program, and what should you fix first?**
 
-Rate a Trust & Safety program in 8 areas, from policy and detection to crisis response and reviewer wellbeing, on five plain-language levels. Then work the plan: a phased roadmap with owners and due dates, where finishing the steps for a level moves that area up on the radar. Quarterly snapshots show leadership how far the program has come.
+Rate a Trust & Safety program in 8 areas, from policy and detection to crisis response and reviewer wellbeing, on five plain-language levels. Then work the plan: a phased roadmap with an owner for each area, where finishing the steps for a level moves that area up on the radar. Quarterly snapshots show leadership how far the program has come.
 
 **[Try it live](https://stevenmacchia.com/ts-workbench/#maturity)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
 
@@ -16,7 +16,7 @@ Leaders are asked "how mature is our safety program?" by boards, regulators, acq
 
 1. **Set your stage.** Early, growing, or at scale and regulated. Targets rise with size, but crisis response, compliance and wellbeing never drop below level 3.
 2. **Rate each area.** One area at a time, pick the highest level where every statement is true today. That sets your baseline.
-3. **Work the plan.** A roadmap in now, next and later, with owners and due dates. Tick off both steps for a level and the area moves up. Each area has a ladder of evidence, and snapshots track progress over time.
+3. **Work the plan.** A roadmap in now, next and later, with an owner for each area. Tick off both steps for a level and the area moves up. Each area has a ladder of evidence, and snapshots track progress over time.
 
 Send the roadmap to Jira, Asana or Linear as a CSV, or open each step as a pre-filled Jira, Linear or GitHub issue.
 
