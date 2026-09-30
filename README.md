@@ -15,7 +15,7 @@ Leaders are asked "how mature is our safety program?" by boards, regulators, acq
 ## How it works
 
 1. **Set your stage.** Early, growing, or at scale and regulated. Targets rise with size, but crisis response, compliance and wellbeing never drop below level 3.
-2. **Rate each area.** One area at a time, pick the highest level where every statement is true today. That sets your baseline.
+2. **Rate each area.** One area per screen, five plain-language levels, your target marked. Pick the highest level where every statement is true today. Or rate them all on one page.
 3. **Work the plan.** A roadmap in now, next and later, with an owner for each area. Tick off both steps for a level and the area moves up. Each area has a ladder of evidence, and snapshots track progress over time.
 
 Send the roadmap to Jira, Asana or Linear as a CSV, or open each step as a pre-filled Jira, Linear or GitHub issue.
@@ -40,11 +40,11 @@ The tool's knowledge, published as open content you can read, reuse and adapt.
 
 ## More screenshots
 
+![maturity-flow](assets/maturity-flow.png)
+
 ![maturity-areas](assets/maturity-areas.png)
 
 ![maturity-progress](assets/maturity-progress.png)
-
-![maturity-flow](assets/maturity-flow.png)
 
 ![maturity-tracker](assets/maturity-tracker.png)
 
