@@ -129,7 +129,7 @@
           "Start block lists for the words and links behind your top harms"
         ],
         [
-          "Match uploads against known CSAM hashes, for example with PhotoDNA, and report matches as the law requires",
+          "Match uploads against known CSAM hashes, for example with PhotoDNA or ROOST's free, open-source Coop, and report matches as the law requires",
           "Rank the review queue by severity instead of arrival time"
         ],
         [
@@ -169,7 +169,7 @@
           "Score vendors on quality, wellness and surge capacity"
         ],
         [
-          "Automate clear-cut decisions and route complex cases to specialists",
+          "Automate clear-cut decisions and route complex cases to specialists, for example with ROOST's free Coop or Osprey",
           "Test a surge plan that adds reviewers within hours"
         ]
       ],
@@ -322,7 +322,7 @@
         ],
         [
           "Set daily exposure limits for the most harmful content",
-          "Turn on blurring and grayscale by default in review tools"
+          "Turn on blurring and grayscale by default in review tools (ROOST's open-source Coop has both)"
         ],
         [
           "Survey reviewer wellbeing and track attrition every quarter",

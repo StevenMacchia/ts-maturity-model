@@ -33,7 +33,7 @@ Two concrete steps for moving each area up one level. The assessment builds a ro
 
 **Level 2 → 3 (Defined)**
 
-- [ ] Match uploads against known CSAM hashes, for example with PhotoDNA, and report matches as the law requires
+- [ ] Match uploads against known CSAM hashes, for example with PhotoDNA or ROOST's free, open-source Coop, and report matches as the law requires
 - [ ] Rank the review queue by severity instead of arrival time
 
 **Level 3 → 4 (Managed)**
@@ -65,7 +65,7 @@ Two concrete steps for moving each area up one level. The assessment builds a ro
 
 **Level 4 → 5 (Leading)**
 
-- [ ] Automate clear-cut decisions and route complex cases to specialists
+- [ ] Automate clear-cut decisions and route complex cases to specialists, for example with ROOST's free Coop or Osprey
 - [ ] Test a surge plan that adds reviewers within hours
 
 ## Quality and appeals
@@ -166,7 +166,7 @@ Two concrete steps for moving each area up one level. The assessment builds a ro
 **Level 2 → 3 (Defined)**
 
 - [ ] Set daily exposure limits for the most harmful content
-- [ ] Turn on blurring and grayscale by default in review tools
+- [ ] Turn on blurring and grayscale by default in review tools (ROOST's open-source Coop has both)
 
 **Level 3 → 4 (Managed)**
 
